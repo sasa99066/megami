@@ -86,12 +86,17 @@
                                     <td>Date</td>
                                 </tr>
                             </thead>
+                            <?php foreach($boardlist as $board): ?>
                             <tbody>
                             <tr>
+                                <td><?= $board->number ?></td>
+                                <td><?= $board->title ?></td>
+                                <td><?= $board->info ?></td>
+                                <td><?= $board->time ?></td>
 
                             </tr>
                             </tbody>
-
+                            <?php endforeach; ?>
                         </table>
 
                     <br><br>

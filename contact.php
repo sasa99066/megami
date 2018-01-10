@@ -76,20 +76,12 @@
 			<section id="two" class="wrapper style3">
 				<div class="inner">
 					<header class="align-center">
-						<p>希望の女神を選択してください</p>
-						<h2>女神リスト</h2>
-                        <p><?php foreach($items as $item): ?>
-                        <div>
-                            <?= $item->name ?>
-                           <!-- <?= $item->price ?> 円
-                            <?= $item->info ?>-->
-                            <a href="/detail/<?= $item->id ?>"> 詳細 </a>
-                        </div>
-                        <?php endforeach; ?></p>
+						<p>会社の連絡先</p>
+                        <h2>CONTACT</h2>
+                        <h3>メール：B6233@oic.jp<br><Br> 電話番号：070-2312-4708</h3>
 					</header>
 				</div>
 			</section>
-
 		<!-- Footer -->
 			<footer id="footer">
 				<div class="container">
